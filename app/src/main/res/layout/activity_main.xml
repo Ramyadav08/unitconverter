@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="100dp"
+        android:text="Enter the value of the kg"
+        android:textColor="@color/purple_700"
+        android:textSize="25dp"
+
+        />
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="170dp" />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="60dp"
+
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="130dp"
+        android:text="submit"
+        android:textSize="25dp"
+        />
+
+    <ImageView
+        android:layout_width="255dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="75dp"
+        android:src="@drawable/pound" />
+
+</RelativeLayout>
